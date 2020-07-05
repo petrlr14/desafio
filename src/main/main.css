@@ -1,0 +1,31 @@
+.root {
+    -fx-background-color: #577590;
+    -fx-font-family: "Roboto Light";
+}
+
+.toolbar {
+    -fx-background-color: #43AA8B;
+}
+
+.button {
+    -fx-font-size: 16;
+}
+
+.tool-bar-button {
+    -fx-background-color: #F9C74F;
+    -fx-border-radius: 6;
+}
+
+.tool-bar-button:hover {
+    -fx-background-color: #c79f3d;
+    -fx-cursor: pointer;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.label-table {
+    -fx-background-color: #90BE6D;
+    -fx-border-color: #648c46;
+}

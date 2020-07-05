@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root prefHeight="600.0" prefWidth="1077.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="domain.DomainController">
+
+    <Label layoutX="319.0" layoutY="59.0" prefHeight="60.0" prefWidth="440.0" text="Malla generada con GiD: 6 tetraedros">
+        <font>
+            <Font size="25.0" />
+        </font>
+    </Label>
+   <ImageView fitHeight="414.0" fitWidth="399.0" layoutX="339.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../img/mesh.png" />
+      </image>
+   </ImageView>
+    
+</fx:root>

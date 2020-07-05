@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Box?>
+<?import javafx.scene.text.Font?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" onMouseDragged="#rotateCube" onMousePressed="#setAnchors" prefHeight="600.0"
+         prefWidth="1077.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal"
+         fx:controller="domain.DomainController">
+
+    <Label layoutX="185.0" layoutY="58.0" prefHeight="60.0" prefWidth="440.0" text="Cubo de  5 unidades cubicas">
+        <font>
+            <Font size="25.0"/>
+        </font>
+    </Label>
+    <Box fx:id="box" depth="200" height="200" layoutX="538.5" layoutY="300.0" width="200"/>
+</fx:root>

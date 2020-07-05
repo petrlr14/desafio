@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root prefHeight="600.0" prefWidth="1077.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="domain.DomainController">
+    <Label layoutX="356.0" layoutY="92.0" prefHeight="74.0" prefWidth="366.0" text="Tabla de conectividad">
+      <font>
+         <Font size="39.0" />
+      </font></Label>
+    <Pane layoutX="244.0" layoutY="166.0">
+        <Label layoutX="113.0" layoutY="71.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="Global\Local" />
+        <Label layoutX="113.0" layoutY="99.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="1" />
+        <Label layoutX="113.0" layoutY="127.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="2" />
+        <Label layoutX="113.0" layoutY="155.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="3" />
+        <Label layoutX="113.0" layoutY="183.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="4" />
+        <Label layoutX="113.0" layoutY="211.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="5" />
+        <Label layoutX="113.0" layoutY="239.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="6" />
+
+        <Label layoutX="233.0" layoutY="71.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="1" textAlignment="CENTER" />
+        <Label layoutX="204.0" layoutY="100.0" prefHeight="28.0" prefWidth="120.0" text="          8" />
+        <Label layoutX="204.0" layoutY="128.0" prefHeight="28.0" prefWidth="120.0" text="          5" />
+        <Label layoutX="204.0" layoutY="156.0" prefHeight="28.0" prefWidth="120.0" text="          6" />
+        <Label layoutX="204.0" layoutY="184.0" prefHeight="28.0" prefWidth="120.0" text="          2" />
+        <Label layoutX="204.0" layoutY="212.0" prefHeight="28.0" prefWidth="120.0" text="          7" />
+        <Label layoutX="204.0" layoutY="240.0" prefHeight="28.0" prefWidth="120.0" text="          4" />
+        <Label layoutX="310.0" layoutY="71.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="2" textAlignment="CENTER" />
+        <Label layoutX="281.0" layoutY="100.0" prefHeight="28.0" prefWidth="120.0" text="          5" />
+        <Label layoutX="281.0" layoutY="128.0" prefHeight="28.0" prefWidth="120.0" text="          3" />
+        <Label layoutX="281.0" layoutY="156.0" prefHeight="28.0" prefWidth="120.0" text="          7" />
+        <Label layoutX="281.0" layoutY="184.0" prefHeight="28.0" prefWidth="120.0" text="          4" />
+        <Label layoutX="281.0" layoutY="212.0" prefHeight="28.0" prefWidth="120.0" text="          1" />
+        <Label layoutX="281.0" layoutY="240.0" prefHeight="28.0" prefWidth="120.0" text="          2" />
+        <Label layoutX="389.0" layoutY="71.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="3" textAlignment="CENTER" />
+        <Label layoutX="360.0" layoutY="100.0" prefHeight="28.0" prefWidth="120.0" text="          2" />
+        <Label layoutX="360.0" layoutY="128.0" prefHeight="28.0" prefWidth="120.0" text="          2" />
+        <Label layoutX="360.0" layoutY="156.0" prefHeight="28.0" prefWidth="120.0" text="          8" />
+        <Label layoutX="360.0" layoutY="184.0" prefHeight="28.0" prefWidth="120.0" text="          6" />
+        <Label layoutX="360.0" layoutY="212.0" prefHeight="28.0" prefWidth="120.0" text="          3" />
+        <Label layoutX="360.0" layoutY="240.0" prefHeight="28.0" prefWidth="120.0" text="          1" />
+        <Label layoutX="469.0" layoutY="71.0" prefHeight="28.0" prefWidth="120.0" styleClass="label-table" text="4" textAlignment="CENTER" />
+        <Label layoutX="449.0" layoutY="100.0" prefHeight="28.0" prefWidth="120.0" text="          7" />
+        <Label layoutX="449.0" layoutY="128.0" prefHeight="28.0" prefWidth="120.0" text="          7" />
+        <Label layoutX="449.0" layoutY="156.0" prefHeight="28.0" prefWidth="120.0" text="          2" />
+        <Label layoutX="449.0" layoutY="184.0" prefHeight="28.0" prefWidth="120.0" text="          7" />
+        <Label layoutX="449.0" layoutY="212.0" prefHeight="28.0" prefWidth="120.0" text="          2" />
+        <Label layoutX="449.0" layoutY="240.0" prefHeight="28.0" prefWidth="120.0" text="          7" />
+    </Pane>
+
+</fx:root>

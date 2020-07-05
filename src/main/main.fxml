@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="pane" prefHeight="600.0" prefWidth="1200.0"
+            xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="main.MainController">
+    <left>
+        <VBox alignment="CENTER" prefHeight="600.0" prefWidth="123.0" spacing="50" styleClass="toolbar">
+            <Button mnemonicParsing="false" onAction="#showDomain" prefHeight="43.0" prefWidth="103.0"
+                    styleClass="tool-bar-button" text="Dominio"/>
+            <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="103.0" styleClass="tool-bar-button"
+                    text="Malla" onAction="#showMesh"/>
+            <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="103.0" styleClass="tool-bar-button"
+                    text="Tabla" onAction="#showTable"/>
+            <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="103.0" styleClass="tool-bar-button"
+                    text="Modelo" onAction="#showModel"/>
+            <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="103.0" styleClass="tool-bar-button"
+                    text="Lo Demas" onAction="#showNoSePudo"/>
+        </VBox>
+    </left>
+    <center>
+        <Pane prefHeight="600.0" prefWidth="1077.0" BorderPane.alignment="CENTER">
+            <Label layoutX="404.0" layoutY="48.0" prefHeight="65.0" prefWidth="278.0" text="¡Bienvenido!">
+                <font>
+                    <Font size="52.0"/>
+                </font>
+            </Label>
+            <ImageView fitHeight="277.0" fitWidth="457.0" layoutX="335.0" layoutY="277.0" pickOnBounds="true"
+                       preserveRatio="true">
+                <image>
+                    <Image url="@../img/welcome.jpg"/>
+                </image>
+            </ImageView>
+            <Label layoutX="69.0" layoutY="136.0" prefHeight="54.0" prefWidth="940.0"
+                   text="Disfrutaras de un  tour donde veras el proceso de resolver un problema aplicando MEF">
+                <font>
+                    <Font name="Roboto Light" size="24.0"/>
+                </font>
+            </Label>
+        </Pane>
+    </center>
+</BorderPane>

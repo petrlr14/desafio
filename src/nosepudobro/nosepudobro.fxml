@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" prefHeight="600.0"
+         prefWidth="1077.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.2-internal">
+    <children>
+        <Label layoutX="109.0" layoutY="184.0" prefHeight="232.0" prefWidth="859.0"
+               text="Eso es todo bro, espero te hayas divertido">
+            <font>
+                <Font size="49.0"/>
+            </font>
+        </Label>
+    </children>
+</fx:root>
